@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin:  0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #10035a;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.logo i{
+    font-size: 46px;
+    color: #f0f2f5bb;
+}
+.logo h2{
+    font-size: 40px;
+    text-decoration: underline;
+    color: #f0f2f5bb;
+}
+.page-link ul{
+    list-style: none;
+}
+.page-link ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.page-link ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+}
+.login-button button{
+    background-color: #ff6347;
+    color: white;
+    font-size: 24px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+}
+section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ .form{
+    display: flex;
+    width: 60%;
+    height: 70%;
+    
+    /* align-items: center;
+    justify-content: center; */ 
+    /* border: 3px seagreen solid; */
+}
+.imgage img{
+    width: 45.4%;
+    background-color:#5E95FF ;
+    border-radius: 5px 0 0 5px;
+    box-shadow: blue 0px 30px 90px;
+    /* position: relative; */
+}
+.login-form{
+    width: 445px !important;
+    height: 69%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#5E95FF;
+    position: absolute;
+    right: 276px;
+    border-radius: 0px 5px 5px 0px ;
+}
+.login-form i{
+    font-size: 54px;
+    color: white;
+}
+.login-form h2{
+    font-size: xx-large;
+    color: #030563;
+}
+.login-form input{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-color: #030563;
+}
+.sign-in-button{
+    font-size: 24px;
+    background-color: #10035a;
+    width: 300px; 
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 0px;
+}
+.login-form span{
+    color: red;
+    margin-top: 10px;
+}
